@@ -173,10 +173,4 @@ Note: If you want to access VPC1 from VPC2, then you need to add the route in th
 # Clean up
 - Delete VPC peering connection
 - Delete EC2 instances
-- Delete security groups
-- Delete route tables
-- Delete subnets
-- Delete internet gateways
-- Delete VPCs
-
-
+- Deleting VPCs will also delete security groups, route tables, subnets and internet gateways.
